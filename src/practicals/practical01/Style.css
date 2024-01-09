@@ -1,0 +1,32 @@
+/* SearchFilter.css */
+
+.search-filter-container {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-list li {
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .item-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
